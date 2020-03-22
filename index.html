@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/download (3).png">
+    <title>MY GAME</title>
+</head>
+<body>
+    <h1 class="t">TIC TAC TOE</h1>
+    <table class="borders" id="tables" align="center">
+        <tr>
+           <td  id="0"></td>
+            <td class="lrb" id="1"></td>
+            <td id="2"></td>
+           </tr>
+        <tr>
+            <td class="tbb" id="3"></td>
+            <td class="fullb" id="4"></td>
+            <td class="tbb" id="5"></td>
+        </tr>
+        <tr>
+            <td id="6"></td>
+            <td class="lrb" id="7"></td>
+            <td id="8"></td>
+         </tr>
+         </table>
+         <div class="endgame">
+           <div class="text"></div>
+         </div>
+         <div class="winning-message" id="winningMessage">
+            <div data-winning-message-text></div>
+            <button id="restartButton">Restart</button>
+          </div>
+          <button class="button" id="restartButton2"><span>Reset</span></button>
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         <script src="script.js"></script>
+</body>
+</html>
